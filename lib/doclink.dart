@@ -11,6 +11,11 @@ class Doclink extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+// ? -> ScreenUtilInit is a widget used to initialize the settings for ScreenUtil.
+// ? -> ScreenUtil is a library that helps make a Flutter application responsive across all screen sizes.
+// ? -> ScreenUtilInit sets the basic design parameters and adjusts the measurements and scaling
+// ? -> according to the current device's screen size, ensuring that the app appears correctly
+
     return ScreenUtilInit(
         designSize: const Size(375, 812),
         minTextAdapt: true,

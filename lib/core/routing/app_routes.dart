@@ -1,4 +1,5 @@
 import 'package:DocLink/core/routing/routes.dart';
+import 'package:DocLink/features/login/ui/loginscreen.dart';
 import 'package:DocLink/features/onboarding/onboarding_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -12,7 +13,10 @@ class AppRouter {
         return MaterialPageRoute(
           builder: (_) => const OnBoardingScreen(),
         );
-
+      case Routes.loginScreen:
+        return MaterialPageRoute(
+          builder: (_) => const LoginScreen(),
+        );
       default:
         return null;
     }
