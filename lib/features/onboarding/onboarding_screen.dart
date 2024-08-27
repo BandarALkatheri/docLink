@@ -1,10 +1,10 @@
-import 'package:DocLink/core/theme/style.dart';
-import 'package:DocLink/features/onboarding/widgets/custom_button_started.dart';
-import 'package:DocLink/features/onboarding/widgets/doclink_logo_and_name.dart';
+import 'package:doclink/core/theme/style.dart';
+import 'package:doclink/features/onboarding/widgets/custom_button_started.dart';
+import 'package:doclink/features/onboarding/widgets/doclink_logo_and_name.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-import 'widgets/doctor_Image_and_text.dart';
+import 'widgets/doctor_image_and_text.dart';
 
 class OnBoardingScreen extends StatelessWidget {
   const OnBoardingScreen({super.key});
@@ -16,8 +16,8 @@ class OnBoardingScreen extends StatelessWidget {
             child: Padding(
       padding: EdgeInsets.only(top: 30.h, bottom: 30.h),
       child: Column(children: [
-        // ? -> DocLinkLogoAndName
-        const DocLinkLogoAndName(),
+        // ? -> doclinkLogoAndName
+        const DoclinkLogoAndName(),
         SizedBox(
           height: 30.h,
         ),

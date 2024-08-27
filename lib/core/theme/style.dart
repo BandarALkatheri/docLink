@@ -1,5 +1,5 @@
-import 'package:DocLink/core/theme/colors.dart';
-import 'package:DocLink/core/theme/font_weight_helper.dart';
+import 'package:doclink/core/theme/colors.dart';
+import 'package:doclink/core/theme/font_weight_helper.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 

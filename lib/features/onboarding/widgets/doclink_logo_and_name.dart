@@ -1,10 +1,10 @@
-import 'package:DocLink/core/theme/style.dart';
+import 'package:doclink/core/theme/style.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
 
-class DocLinkLogoAndName extends StatelessWidget {
-  const DocLinkLogoAndName({super.key});
+class DoclinkLogoAndName extends StatelessWidget {
+  const DoclinkLogoAndName({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -15,7 +15,7 @@ class DocLinkLogoAndName extends StatelessWidget {
         SizedBox(
           width: 10.h,
         ),
-        Text('DocLink', style: TextStyles.font24BlackBold)
+        Text('doclink', style: TextStyles.font24BlackBold)
       ],
     );
   }

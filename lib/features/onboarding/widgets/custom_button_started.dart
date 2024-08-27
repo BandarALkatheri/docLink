@@ -1,6 +1,6 @@
-import 'package:DocLink/core/helpers/extension.dart';
-import 'package:DocLink/core/theme/colors.dart';
-import 'package:DocLink/core/theme/style.dart';
+import 'package:doclink/core/helpers/extension.dart';
+import 'package:doclink/core/theme/colors.dart';
+import 'package:doclink/core/theme/style.dart';
 import 'package:flutter/material.dart';
 
 import '../../../core/routing/routes.dart';
