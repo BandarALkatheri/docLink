@@ -1,4 +1,4 @@
-package com.example.DocLink
+package com.example.doclink
 
 import io.flutter.embedding.android.FlutterActivity
 
