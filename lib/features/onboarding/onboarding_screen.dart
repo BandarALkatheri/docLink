@@ -17,7 +17,7 @@ class OnBoardingScreen extends StatelessWidget {
       padding: EdgeInsets.only(top: 30.h, bottom: 30.h),
       child: Column(children: [
         // ? -> doclinkLogoAndName
-        const DoclinkLogoAndName(),
+        const doclinkLogoAndName(),
         SizedBox(
           height: 30.h,
         ),
