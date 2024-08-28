@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
 
-class DoclinkLogoAndName extends StatelessWidget {
-  const DoclinkLogoAndName({super.key});
+class doclinkLogoAndName extends StatelessWidget {
+  const doclinkLogoAndName({super.key});
 
   @override
   Widget build(BuildContext context) {
